@@ -13,6 +13,7 @@ export const Todo: React.FC<Props> = ({ id, title, completed, onRemoveTodo, onTo
       completed: event.target.checked
     })
   }
+
   return (
         <div className="view">
             <input
